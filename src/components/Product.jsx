@@ -25,7 +25,7 @@ export default class Product extends Component {
           <div className='product_title'>{this.state.productInfo.title}</div>
           <p className='product_description'>{this.state.productInfo.description}</p>
         </div>
-        <div className='price'>price: {this.state.productInfo.price}</div>
+        <div className='price'>price: {this.state.productInfo.price} <span>&#8364;</span></div>
         <div></div>
       </div>
     )
