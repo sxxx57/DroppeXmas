@@ -1,0 +1,9 @@
+.all_carts {
+    display: flex;
+    justify-content: center;
+}
+
+.all_carts_container {
+    width: 1200px;
+    background-color: white;
+}
