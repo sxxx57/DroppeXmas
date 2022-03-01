@@ -1,5 +1,5 @@
 .product_container {
-    border: 1px solid bisque;
+    border: 1px solid white;
     padding: 20px;
     border-radius: 5px;
     margin: 10px;
@@ -10,7 +10,7 @@
 
 .product_container:hover {
     padding: 10px;
-    border: 1px solid rgb(0, 1, 48);
+    border: 1px solid rgb(175, 175, 175);
     transition: .4s;
 }
 
@@ -34,10 +34,25 @@
 
 .price {
     width: 200px;
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 800;
     color: rgb(1, 28, 54);
-    margin-right: 50px;
+    margin-right: 60px;
     border-radius: 5px;
     text-align: right;
+}
+
+.deleteButton {
+    background: transparent;
+    border: 1px solid gray;
+    border-radius: 2em;
+    color: gray;
+    display: inline-block;
+    font-size: 12px;
+    height: 20px;
+    line-height: 2px;
+    margin: 0 0 8px;
+    padding: 0;
+    text-align: center;
+    width: 20px;
 }

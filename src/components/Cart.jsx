@@ -10,7 +10,7 @@ export default class Cart extends Component {
     }
   }
   componentDidMount(){
-    console.log("购物车组件props: ",this.props)
+    console.log("cart props: ",this.props)
   }
   render() {
     return (

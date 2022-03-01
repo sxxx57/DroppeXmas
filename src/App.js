@@ -4,9 +4,7 @@ import AllCarts from './components/AllCarts';
 
 
 function App() {
-    return (
-
-        <
+    return ( <
         AllCarts / >
 
     );
