@@ -1,9 +1,8 @@
 .all_carts {
     justify-content: center;
-    margin-left: 60px;
 }
 
 .all_carts_container {
-    width: 1200px;
-    background-color: white;
+    justify-content: center;
+    width: fit-content;
 }

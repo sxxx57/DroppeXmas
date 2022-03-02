@@ -27,7 +27,7 @@ export default class AllCarts extends Component {
     return (
       
       <div className='all_carts'>
-      
+
         <div className='all_carts_container'>
           {
             this.state.CartList.map((item, index) => {

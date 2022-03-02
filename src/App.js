@@ -4,8 +4,15 @@ import AllCarts from './components/AllCarts';
 
 
 function App() {
-    return ( <
+    return ( < div className = "App" >
+        <
+        Nav / >
+
+        <
         AllCarts / >
+
+        <
+        /div>
 
     );
 }
